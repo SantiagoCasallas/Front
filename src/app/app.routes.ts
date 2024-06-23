@@ -6,10 +6,9 @@ import { VistaComponent } from './Components/vista/vista.component';
 import { VistaAdminComponent } from './Components/vista-admin/vista-admin.component';
 
 export const routes: Routes = [
-    {path: '', component: InicioComponent},
-    {path: 'Login', component: LoginComponent},
-    {path: 'Register', component: RegisterComponent},
-    {path: 'Vista', component: VistaComponent},
-    {path: 'VistaAdmin', component: VistaAdminComponent},
-
-];
+    { path: '', component: InicioComponent },
+    { path: 'login', component: LoginComponent },
+    { path: 'register', component: RegisterComponent },
+    { path: 'vista', component: VistaComponent },
+    { path: 'vista-admin', component: VistaAdminComponent },
+  ];
