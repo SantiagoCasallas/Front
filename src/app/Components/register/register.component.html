@@ -1,0 +1,56 @@
+<div class="grid place-content-center  justify-center items-center  border my-80">
+
+    <Form
+        class="font-mono   h-full  grid grid-col place-content-center items-center bg-purple-200 border-2 border-black">
+        <div class=" grid grid-cols-2">
+            <div>
+                <a href="Login">
+                    <h1
+                        class=" text-3xl font-bold mb-5  items-center text-center  bg-purple-300 hover:bg-purple-400 border border-transparent">
+
+                        Login
+                    </h1>
+                </a>
+            </div>
+            <div>
+
+                <h1
+                    class=" text-3xl font-bold mb-5 w-full items-center text-center bg-purple-300 border-b-2 border-l-2 border-black">
+                    Registro</h1>
+
+
+            </div>
+        </div>
+
+
+        <div class="px-2">
+            <div class="grid grid-cols-3 my-2">
+                <p class="col-span-1 bg-red-50">Usuario</p>
+                <input placeholder="Nombre de usuario" class="col-span-2 bg-blue-100 pl-3">
+
+            </div>
+            <div class="grid grid-cols-6 my-2">
+                <p class="col-span-2 bg-red-50">Contraseña</p>
+                <div class=" grid grid-cols-5 col-span-4">
+                    <input placeholder="Contraseña" type="password" id="contraseña" class="col-span-4 bg-blue-100 pl-3">
+                    <input type="checkbox" name="mostContraseña" id="mostContraseña" (click)="mContrasena()"
+                        class="border border-black rounded-2xl w-full col-span-1">
+
+                </div>
+            </div>
+                <div class="grid grid-cols-3 my-2">
+                    <p class="col-span-1 bg-red-50">Rol</p>
+                    <select name="" id="" class="col-span-2">
+                        <option value="">Usuario</option>
+                        <option value="">Admin</option>
+                    </select>
+                </div>
+
+            <div class="grid items-center place-content-center">
+
+                <button class=" bg-white rounded-3xl border border-black hover:bg-green-300 px-2">Registrarse</button>
+
+            </div>
+        </div>
+    </Form>
+</div>
